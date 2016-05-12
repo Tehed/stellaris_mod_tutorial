@@ -1,0 +1,68 @@
+# Space Vikings - Ironborn Dominion
+ironborn = {
+	name="Ironborn Dominion"
+	spawn_enabled=yes
+
+	adjective="ironborn"
+	
+	species_name="Space Vikings"
+	species_class="MAM"
+	species_plural="Space Vikings"
+	species_adjective="viking"
+
+	name_list="SpaceVikings"
+	ship_prefix="VS"
+	
+	portrait="human"
+	
+	system_name="Midgard"
+	initializer="sol_system_initializer"
+	planet_name="Nordheim"
+	planet_class="pc_tundra"
+
+	graphical_culture="avian_01"
+	city_graphical_culture="avian_01"
+
+	empire_flag={
+		icon= {
+			category = "human"
+			file = "flag_human_9.dds"
+		}
+		background={
+			category="backgrounds"
+			file="triangle_split.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	flags = { space_vikings custom_start_screen }
+
+	ruler={
+		gender=male
+		name="Ragnar Ragnarsson"
+		portrait="human_male_01"
+		texture=0
+		hair=30
+		clothes=1
+	}
+
+	ftl=warp
+	weapon="tech_mass_drivers_1"	
+
+	government="space_vikings_government"
+
+	ethic="ethic_collectivist"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"	
+
+	trait="trait_strong"
+	trait="trait_resilient"
+	trait="trait_decadent"
+	trait="trait_communal"
+}
+

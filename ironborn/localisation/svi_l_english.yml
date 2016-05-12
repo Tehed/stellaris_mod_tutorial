@@ -1,0 +1,21 @@
+﻿l_english:
+
+  name_list_SpaceVikings:0 "Space Vikings"
+  name_list_SpaceVikings_desc:0 "§YLeaders:§! Ragnar Ragnarsson, Brida Eiriksdottir \n§YShips:§! Axtid, Sargymir\n§YFleets:§! Ragnarök, Blodörn\n§YColonies:§! Lindisfarn, Miklagard"
+
+  EMPIRE_DESIGN_ironborn:0 "Ironborn Dominion"
+  EMPIRE_DESIGN_ironborn_desc:0 "After having discovered the means to travel between planets, the humans of Earth mostly sent out their most hardy specimen on the first exploration missions. Having landed on the chilly, barren tundras of Nordheim, a group of these explorers went back to the old ways of their native, earthen home and developed into Space Vikings.\n\nThey formed a society based on a moral code with distinct, but permeable social classes and the belief that goals are achieved by showing strength and subduing the weak.\n\nNow that they have rather outgrown their planet, these Space Vikings are therefore now searching for riches and settlement grounds on other planets. In this endeavour they have thus far proven themselves to be fearless explorers and warriors."
+
+  START_SCREEN_SVI:0 "After a century of exile on this planet, the Space Vikings have separated completely from their former human ways. Since we were a hardy folk of warriors and explorers to begin with, we rapidly began to populate all the inhabitable space on Nordheim. After discovering that the humans who sent them here no longer cared, the Space Vikings began fighting among themselves for supremacy in smaller parts of Nordheim, but soon the conflicts developed into a war that spanned the whole planet.\n\nIn this time, the Ironborn tribe turned towards the old gods for guidance and the Völvar told us to look for riches and a better living on other planets. And indeed, by either defeating our enemeies or persuading them with the gods' prophecy, the Ironborn prevailed and the Ironborn Dominion was born!\n\nUnited under a single banner, with the gods watching and our battle-hardened warriors at the ready we are finally preparing the ships!"
+  
+  RT_JARL:0 "Jarl"
+  RT_KONUNG:0 "Konungr"
+  RT_DROTTNING:0 "Drottning"
+
+  space_vikings_government:0 "Ironborn Law"
+  space_vikings_government_desc:0 "§LThis government is a militaristic form of autocracy, with the ruler serving as the undisputed head of the military which is firmly in control of the state apparatus.§!"
+  space_vikings_government_special:0 "Each Ruler can build an oversized Ship"
+  space_vikings_government_2:0 "Ironborn Command"
+  space_vikings_government_2_desc:0 "§LThis government is an advanced form of militaristic autocracy, where the state exists largely to support the military. Martial ability is highly valued, and all citizens are regularly drilled in matters of war.§!"
+  space_vikings_government_2_special:0 "Each Ruler can build an oversized Ship"
+  

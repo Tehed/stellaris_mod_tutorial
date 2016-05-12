@@ -1,0 +1,9 @@
+# Space Vikings
+part = {
+	location = 0
+	localization = "START_SCREEN_SVI"
+	
+	trigger = {
+		has_country_flag = space_vikings
+	}		
+}

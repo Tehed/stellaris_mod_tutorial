@@ -1,0 +1,219 @@
+﻿### Ironborn Space Vikings
+SpaceVikings = {
+	randomized = no
+
+	ship_names = {
+		generic = {
+			Tranann "Ormurin Skamma" "Ormuring Langi" Visundur Buzu-skip Mariusud Ognabrandur 
+			Olavssud Langfredag Kross-sud Kristsud Sargymir Unnsvin Gjallfr-Marr Herskip 
+			Axtid 
+		}
+		
+		corvette = {
+			Korpen Lugin Munin Geri Freki Ulfberht 
+		}
+		
+		constructor = {
+			Dvergar
+		}
+		
+		colonizer = {
+			Auðhumla Ymir Skirnir
+		}
+		
+		science = {	
+			Kraka Völuspa Völva Draupnir Gleipnir Odrerir Suttungmjadar
+		}
+		
+		destroyer = {
+			Gramr Mjöllnir Gungnir 
+		}
+		
+		cruiser = {
+			Hati Sköll  
+		}
+		
+		battleship = {
+			Managarmr Fenrir Jormungandr Skidbladnir Nidhöggr 
+		}
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { 
+			Uppsala Irminsul
+		}
+		wormhole_station = {
+			Ginnungagap
+		}
+		terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			random_names = {
+				Birka Hovgarden Heidabyr Danelagh Miklagard Danevirke Holmgardr
+			}
+			sequential_name = "%O% Frontier Outpost"
+		}
+		
+		transport = {
+			Faering Knarr 
+		}
+
+		military_station_small = { 
+			Lindisfarn
+		}
+			
+		military_station_medium = { 
+			Hlidskialf Svalinn
+		}
+		
+		military_station_large = { 
+			Valhall Bifröst
+		}
+		
+	}
+
+	fleet_names = {
+		random_names = {
+			Ragnarök Blodörn Fimbulvinter
+		}
+		sequential_name = "%O% Fleet"
+	}
+	
+	army_names = {
+	
+		defense_army = {			
+			sequential_name = "%O% Planetary Guard"
+		}
+
+		assault_army = {
+			random_names = {
+				Einherjar
+			}
+			sequential_name = "%O% Expeditionary Force"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Indentured Rifles"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Clone Army"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Hunter-Killer Group"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Synthetic Rangers"
+		}
+		
+		psionic_army = { 
+			random_names = {
+				Valkyrjar 
+			}
+			sequential_name = "%O% Psi Commando"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Bio-Warfare Division"
+		}
+		
+		gene_warrior_army = {
+			random_names = {
+				Vaeringjar Ulfhednar 
+			}
+			sequential_name = "%O% Bio-Engineered Squadron"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				 Svealand Fyrisvellir
+			}
+		}
+		
+		pc_desert = {
+			names = {
+				Hel Muspellsheim
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				Jotunheimr
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				Svartalfheim Nidavellir
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				Urdarbrunnr Alfheim Vanaheim			
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+				Yggdrasil Asgard
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				Hlesey
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+				Utgardar Vigridr
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+				Niflheim
+			}
+		}
+	}
+
+
+	### CHARACTERS
+
+	character_names = {
+
+		names1 = {
+			weight = 100
+			first_names_male = {
+				Ragnar Haraldr Bjorn Siggy Rollo Floki Hvitserk Ivar Eirikr Halfdan Guthrum Rörik Leif Rollo Ubba
+				Agnarr Eirekr Hvitserk Cnut Flosi Bolli Thorbjörn Bjarke Skarthi Borg Sigvard Ingstad Bjarni 
+				Osmo Dalk Kyy Kokko Ulf Turo Sigtryggr Gunnlaugr Hakon Thorfinn Bodvar blub
+			}
+			first_names_female = {
+				Aslaug Asta Audr Brenna Brida Brynhildr Helga Freydis Thora Lagertha Gunilla Hervor Thornbjorg Hed 
+				Visna Veborg Hildigunnur Gudrun Oda 
+			}
+			second_names = {
+				Ragnarsson Lodbrok Haraldson Eriksson Hardrade Sigurdsson Sigurdarson Eiriksdottir Vidfamne Hildetand 
+				Gjukadottir Budladottir Jornsida Harfagri Ormstunga Haakonsson Haakonsdottir Storrada Tjuguskegg
+				Hausakljufr Borgarhjört Djupudga Ketilsdottir
+ 			}
+			regnal_first_names_male = {
+				Aegir Gymir Hler Ymir Vidar Gylfi Gangleri Njörd Hymir
+			}
+			regnal_first_names_female = {
+				Frija Angrboda Urdr Verdandi Skuld Volla
+			}
+			regnal_second_names = {				
+			}
+		}
+
+	}
+}

@@ -1,0 +1,114 @@
+#########################################################
+# A simple redefinition of military_dicatorship
+# and martial_empire. The only changes are 
+# the names for Rulers and the government itself
+# to distinguish itself from the standard
+# government forms
+#########################################################
+
+# space_vikings_government is the same as military_dicactorship
+# but with different names
+space_vikings_government = {
+	icon = "gfx/interface/icons/governments/military_dictatorship.dds"
+	
+	potential = {
+		hidden_trigger = { NOT = { is_country_type = fallen_empire } }
+	}
+
+	ethics = {
+		OR = {
+			has_ethic = "ethic_militarist"
+			has_ethic = "ethic_fanatic_militarist"
+		}
+		NOT = { has_ethic = "ethic_individualist" }
+		NOT = { has_ethic = "ethic_fanatic_individualist" }
+	}
+	
+	modifier = {
+		navy_size_mult = 0.2
+		ship_upkeep_mult = -0.05
+	}
+	
+	election_type = oligarchic
+	election_term_years = 70
+	max_election_candidates = 4
+	election_candidates = {
+		modifier = {
+			add = 1000
+			leader_class = ruler
+			exists = pop_faction
+			pop_faction = {
+				AND = {
+					is_scope_valid = yes
+					is_pop_faction_type = loyalist
+				}
+			}
+		}
+		modifier = {
+			add = 100
+			OR = {
+				leader_class = admiral
+				leader_class = general
+			}
+		}
+	}
+	
+	ruler_title = RT_JARL
+	can_build_ruler_ship = yes
+	upgrade = space_vikings_government_2
+}
+
+# space_vikings_government_2 is the same as martial_empire
+# but with different names
+martial_empire = {
+	prerequisites = { "tech_galactic_administration" }
+	
+	potential = {
+		hidden_trigger = { NOT = { is_country_type = fallen_empire } }
+	}
+
+	ethics = {
+		OR = {
+			has_ethic = "ethic_militarist"
+			has_ethic = "ethic_fanatic_militarist"
+		}
+		NOT = { has_ethic = "ethic_individualist" }
+		NOT = { has_ethic = "ethic_fanatic_individualist" }
+	}
+	
+	modifier = {
+		navy_size_mult = 0.4
+		ship_upkeep_mult = -0.1
+	}
+	
+	election_type = oligarchic
+	election_term_years = 0
+	
+	max_election_candidates = 4
+	election_candidates = {
+		modifier = {
+			add = 1000
+			leader_class = ruler
+			exists = pop_faction
+			pop_faction = {
+				AND = {
+					is_scope_valid = yes
+					is_pop_faction_type = loyalist
+				}
+			}
+		}
+		modifier = {
+			add = 100
+			OR = {
+				leader_class = admiral
+				leader_class = general
+			}
+		}
+	}
+	
+	ruler_title = RT_KONUNG
+	ruler_title_female = RT_DROTTNING
+	
+	pickable_at_start = no
+	can_build_ruler_ship = yes
+}
